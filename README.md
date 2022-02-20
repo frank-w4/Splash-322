@@ -15,4 +15,4 @@ readme file with additional details for construction of the prototype and illust
 - 1x Vessel for water (spray bottle)
 
 ## Construction
-![Testing Ultrasonic Sensor with case](pictures/first.jpg)
+Here we are putting the ultrasonic sensor inside of its case to test how it fits <img src="pictures/first.jpg" width="500">
