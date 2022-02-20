@@ -42,4 +42,8 @@ Our solution will monitor users' plants' health and water level by utilizing an 
 3. Finally, it was time to test to see if our sensor would be able to read different water levels inside the vessel. Andy and Frank found favorable results! 
 
 ### DevOps
-1. Finally, we were able to start the DevOps process. For this  
+1. Finally, we were able to start the DevOps process. For this project, we needed to split this DevOps process into two steps - Arduino and Python.
+
+2. First, we developed the arduino sketch. This will be important to keep running because this receives, interprets, and sends the readings that we get from the ultrasonic sensor.
+
+3. The Arduino aspe
