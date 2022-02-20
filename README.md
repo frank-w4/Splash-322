@@ -15,4 +15,8 @@ readme file with additional details for construction of the prototype and illust
 - 1x Vessel for water (spray bottle)
 
 ## Construction
+<<<<<<< HEAD
 ![Putting ](pictures/first.jpg)
+=======
+![Alt text](pictures/fourth.jpg)
+>>>>>>> 6c30170fe3c9848fa50129ca3bd6e18153f77c41
