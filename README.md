@@ -46,4 +46,10 @@ Our solution will monitor users' plants' health and water level by utilizing an 
 
 2. First, we developed the arduino sketch. This will be important to keep running because this receives, interprets, and sends the readings that we get from the ultrasonic sensor.
 
-3. The Arduino code [(found here)](arduino_interface.ino) has to run in parallel with the python script in order to receive readings from the sensor. 
+3. The Arduino code [(found here)](arduino_interface.ino) has to run in parallel with the python script in order to receive readings from the sensor. We developed this to take the readings and transmit them. In the development process, we took a reading every 3 seconds. In actual deployment, it will be close to once every 10 minutes. 
+
+4. Our Python script [(found here)](splash.ipynb) is using a few built in libraries (like email and smtplib, ssl) and also some imported libraries, like datetime. The code will infintently run until an email is sent successfully. We were able to get the readings and test them very easily, however, communicating with gmail's SMTP servers were a little harder. This required a lot of debugging and looking up documentation. 
+
+5. Finally, we were able to get a working prototype. This prototype is able to combine the sensor with our python script to deliver accurate and precise readings to our email system that will enable users to take care of their plants easier. 
+
+<img src="pictures/fourth.jpg" width="700">
