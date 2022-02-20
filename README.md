@@ -1,9 +1,6 @@
 # Splash-322
 CSC 322 Project #1 - Frank Whitworth and Andy Spiers
 
-## What Pauca Wants
-readme file with additional details for construction of the prototype and illustrations of the working prototype. 
-
 ## Problem
 For this project, we developed a tool that will notify a user when their plant-watering tool needs more water. This tool will help visually impaired users, users with disabilities, and users that travel and are away from their plants for long periods of time. 
 
