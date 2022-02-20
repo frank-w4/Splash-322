@@ -46,4 +46,4 @@ Our solution will monitor users' plants' health and water level by utilizing an 
 
 2. First, we developed the arduino sketch. This will be important to keep running because this receives, interprets, and sends the readings that we get from the ultrasonic sensor.
 
-3. The Arduino aspe
+3. The Arduino code [found here](arduino_interface.ino)
