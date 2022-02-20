@@ -5,7 +5,7 @@ CSC 322 Project #1 - Frank Whitworth and Andy Spiers
 For this project, we developed a tool that will notify a user when their plant-watering tool needs more water. This tool will help visually impaired users, users with disabilities, and users that travel and are away from their plants for long periods of time. 
 
 ## Solution
-Our solution will monitor users' plants' health and water level by utilizing an ultrasonic sensor with Python. Our tool is able to sense the water level inside the vessel, compare the actual water level to the trigger distance, and then send an email to the user once that trigger distance has been reached. 
+Our solution will monitor users' plants' health and water level by utilizing an ultrasonic sensor with Python. Our tool is able to sense the water level inside the vessel that is inserted into plants' soil, compare the actual water level to the trigger distance, and then send an email to the user once that trigger distance has been reached. 
 
 ## Materials
 - 1x Arduino UNO
