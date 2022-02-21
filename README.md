@@ -1,4 +1,4 @@
-# Splash-322
+# Splash-332
 CSC 322 Project #1 - Frank Whitworth and Andy Spiers
 
 ## Problem
