@@ -16,6 +16,7 @@ Our solution will monitor users' plants' health and water level by utilizing an 
 - 1x Computer 
 - 1x Plant
 - 1x Vessel for water (spray bottle)
+- 1x Small plywood bar
 
 ## Construction
 
