@@ -51,3 +51,7 @@ Our solution will monitor users' plants' health and water level by utilizing an 
 5. Finally, we were able to get a working prototype. This prototype is able to combine the sensor with our python script to deliver accurate and precise readings to our email system that will enable users to take care of their plants easier. 
 
 <img src="pictures/fourth.jpg" width="700">
+
+### Deployment of Prototype
+We did it, we succesfully deployed our prototype and had a 100% success rate. Andy and I are thrilled with what we have developed. 
+<img src="pictures/IMG_2261.jpg" width="701">
