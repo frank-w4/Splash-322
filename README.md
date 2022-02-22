@@ -7,6 +7,8 @@ For this project, we developed a tool that will notify a user when their plant-w
 ## Solution
 Our solution will monitor users' plants' health and water level by utilizing an ultrasonic sensor with Python. Our tool is able to sense the water level inside the vessel that is inserted into plants' soil, compare the actual water level to the trigger distance, and then send an email to the user once that trigger distance has been reached. 
 
+_To add your own email to the system, comment line 93 and uncomment line 94 [in the python script](splash.py)_
+
 ## Materials
 - 1x Arduino UNO
 - 1x Ultrasonic Distance Sensor - HC-SR04 
@@ -46,7 +48,7 @@ Our solution will monitor users' plants' health and water level by utilizing an 
 
 3. The Arduino code [(found here)](arduino_interface.ino) has to run in parallel with the python script in order to receive readings from the sensor. We developed this to take the readings and transmit them. In the development process, we took a reading every 3 seconds. In actual deployment, it will be close to once every 10 minutes. 
 
-4. Our Python script [(found here)](splash.ipynb) is using a few built in libraries (like email and smtplib, ssl) and also some imported libraries, like datetime. The code will infintently run until an email is sent successfully. We were able to get the readings and test them very easily, however, communicating with gmail's SMTP servers were a little harder. This required a lot of debugging and looking up documentation. 
+4. Our Python script [(found here)](splash.py) is using a few built in libraries (like email and smtplib, ssl) and also some imported libraries, like datetime. The code will infintently run until an email is sent successfully. We were able to get the readings and test them very easily, however, communicating with gmail's SMTP servers were a little harder. This required a lot of debugging and looking up documentation. 
 
 5. Finally, we were able to get a working prototype. This prototype is able to combine the sensor with our python script to deliver accurate and precise readings to our email system that will enable users to take care of their plants easier. 
 
@@ -56,4 +58,3 @@ Our solution will monitor users' plants' health and water level by utilizing an 
 We did it, we succesfully deployed our prototype and had a 100% success rate. Andy and I are thrilled with what we have developed. 
 <img src="pictures/IMG_2261.jpg" width="701">
 
-_To add your own email to the system, comment line 93 and uncomment line 94_
