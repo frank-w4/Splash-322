@@ -55,3 +55,5 @@ Our solution will monitor users' plants' health and water level by utilizing an 
 ### Deployment of Prototype
 We did it, we succesfully deployed our prototype and had a 100% success rate. Andy and I are thrilled with what we have developed. 
 <img src="pictures/IMG_2261.jpg" width="701">
+
+_To add your own email to the system, comment line x and uncomment line x+1_
