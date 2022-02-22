@@ -89,9 +89,9 @@ while i < N:
             subject = 'Splash Device Notification - ' + str(datetime_subject_line)
             msg['From'] = EMAIL_ADDRESS
             from_txt = EMAIL_ADDRESS
-            msg['To'] = ['whitfd18@wfu.edu', 'frank.d.whitworth.4@gmail.com', 'coverletterwriter@gmail.com', 'aspiers10@gmail.com']
-            to_txt = ['whitfd18@wfu.edu', 'frank.d.whitworth.4@gmail.com', 'coverletterwriter@gmail.com', 'aspiers10@gmail.com']
-            # to_txt = ['whitfd18@wfu.edu', 'frank.d.whitworth.4@gmail.com', 'coverletterwriter@gmail.com', 'aspiers10@gmail.com', 'paucavp@wfu.edu']
+            msg['To'] = ['whitfd18@wfu.edu', 'coverletterwriter@gmail.com', 'aspiers10@gmail.com']
+            to_txt = ['whitfd18@wfu.edu', 'coverletterwriter@gmail.com', 'aspiers10@gmail.com']
+            # to_txt = ['whitfd18@wfu.edu', 'coverletterwriter@gmail.com', 'aspiers10@gmail.com', 'paucavp@wfu.edu']
             body_txt = """
 Customer,
 
