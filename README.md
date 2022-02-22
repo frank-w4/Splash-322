@@ -23,7 +23,9 @@ _To add your own email to the system, comment line 93 and uncomment line 94 [in 
 ## Construction
 
 ### Circuit
-1. This is an exact diagram of our circuit. We have decided to not use a bread board to save space in our prototype. The only differences are the ports that we mapped Echo and Trig to in our system. <img src="pictures/arduino- sensor-setup.jpg" width="800"> _(image from create.arduino.cc)_
+1. This is an exact diagram of our circuit. We have decided to not use a bread board to save space in our prototype. The only differences are the ports that we mapped Echo and Trig to in our system. <img src="pictures/arduino- sensor-setup.jpg" width="800"> 
+
+_(image from create.arduino.cc)_
 
 ### Sensor Setup
 1. Here we are putting the ultrasonic sensor inside of its case to test how it fits. Notice the little scrap bit of wood we used, this is to ensure even, stable, and consistent readings with our sensor. Overall a necessary addition to the prototype. 
